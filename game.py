@@ -52,7 +52,7 @@ while playing:
     #part 4 guess the flag
     correct=False
     while correct == False:
-        answer=input("\nStep 4: the national flag of this country has saffron, white and green stripes.\n what shape is the central blue ashoka chakra? Hint: This shape has no edges! ")
+        answer=input("\nStep 4: the national flag of this country has saffron, white and green stripes.\n what shape is the central blue ashoka chakra? Hint: This shape has no edges! ").strip().lower()
         attempts+=1
 
         if answer=="circle":
